@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    color: white;
+    padding: 0 20px;
+    font-family: "Monrope", sans-serif;
+    font-size: 18px;
+}
+#hero{
+    background: url("../img/bg.png")no-repeat center/cover;
+    min-height: 100vh;
+
+}
+#teach{
+    background:black;
+    padding: 50px 0;
+}
+.block{
+    font-family: 'Manrope',sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #DEDEDE;
+}
+.block-title{
+    width: 380px;
+    font-family: 'Manrope',sans-serif;
+    font-size: 32px;
+    color: #DEDEDE;
+    margin-bottom: 100px;
+}
+.block-title2 p{
+    font-family: 'Manrope',sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: grey;
+    margin-bottom: 15px;
+}
+.block-title2 h1{
+    font-family: 'Manrope',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #DEDEDE;
+}
+.block-title2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
